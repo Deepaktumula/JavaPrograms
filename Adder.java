@@ -9,5 +9,3 @@ sum=sum+Integer.parseInt(args[i]);
 System.out.println("\nsum=" +sum);
 }
 }
-
-added new change
