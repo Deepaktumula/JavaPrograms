@@ -1,0 +1,25 @@
+import java.util.*; 
+class Fibnoic
+{ 
+static int c; 
+static void fibo(int a, int b, int n) 
+{ 
+if(c <= n) 
+{ 
+System.out.print(c + " "); 
+a=b; b=c; c=a+b; 
+fibo(a, b, n); 
+} 
+}
+public static void main(String args[]) 
+{ 
+Scanner sc=new Scanner(System.in); 
+Fibnoic f = new Fibnoic(); 
+int a=0, b=1, num; 
+System.out.println("DEEPAK and Roll:201940443");
+System.out.print("Enter the No ::"); 
+num=sc.nextInt(); 
+System.out.println("\nThe FIBONACCI Series below: " + num); 
+fibo(a, b, num);
+}
+}
