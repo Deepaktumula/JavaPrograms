@@ -24,5 +24,3 @@ t.study();
 t.marks();
 }
 }
-
-Trying to commit
